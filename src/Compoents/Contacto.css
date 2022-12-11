@@ -1,0 +1,200 @@
+/* .contact-fondo {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom,#d5d5d5,#fefefe);
+    background-image: linear-gradient(rgb(122, 25, 241), rgb(51, 33, 121));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+} */
+/* .contact-img {
+    margin-top: 50px;
+    width: 80%;
+    height: 80vh; */
+/* background-color: antiquewhite; */
+/* display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+} */
+/* .contact {
+    width: 45%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.103);
+    backdrop-filter: blur(10px);
+}
+.img1 {
+    background-image: url("../img/IN.png");
+    background-size: cover;
+    background-position:  center;
+    
+}
+.img2 {
+    background-image: url("../img/CT.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.img3 {
+    background-image: url("../img/GIT.png");
+    background-size: cover;
+    background-position:  center;
+}
+.img4 {
+    background-image: url("../img/OCC.png");
+    background-size: cover;
+    background-position:  center;
+}
+.contact img {
+    width: 100%;
+    height: 100%;
+}
+.contact-content {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    transition: all 2s ease-in-out;
+    opacity: 1;
+}
+
+
+.contact-content:hover  {
+    backdrop-filter: blur(2px);
+    opacity: 1;
+} */
+
+.contacto-fondo {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/fondo-contacto2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contacto-fondo-color {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.408);
+}
+
+.contactos-links {
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(31, 71, 152, 0.716);
+    background-color: rgba(133, 144, 172, 0.716);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.botonC {
+    /* padding-top: 5px; */
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    /* color: white; */
+    /* font-size: .8rem; */
+    font-family: 'Urbanist', sans-serif;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    background-color: rgba(3, 3, 3, 0.484);
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 1rem;
+    padding-top: 2px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-shadow: 1px 1px 1px black;
+}
+
+.botonC:hover {
+    background-color: rgba(255, 255, 255, 0.118);
+    color: rgb(255, 251, 251);
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    padding-top: 2px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.item-cv {
+    width: 250px;
+    height: 70%;
+    background-image: url("../img/cv.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:  center;
+    align-content: center;
+}
+
+.item-cv:hover .botonC {
+    opacity: 1;
+}
+
+
+.item-git:hover .botonC {
+    opacity: 1;
+}
+
+.item-in:hover .botonC {
+    opacity: 1;
+}
+
+.item-in {
+    width: 250px;
+    height: 70%;
+    background-image: url("../img/IN2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:  space-evenly;
+    align-content: center;
+}
+
+.item-git {
+    width: 250px;
+    height: 70%;
+    background-image: url("../img/GIT.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:  space-evenly;
+    align-content: center;
+}
