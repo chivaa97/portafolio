@@ -16,12 +16,12 @@ const Contacto = () => {
                                 VISITAR</a>
                         </div>
                         <div className="item-in">
-                            <a
+                            <a rel="noreferrer"
                              className='botonC' target="_blank"
                               href="https://www.linkedin.com/in/eduardo-contreras-chivaa97/">VISITAR</a>
                         </div>
                         <div className="item-git">
-                            <a 
+                            <a rel="noreferrer"
                             className='botonC' target="_blank" 
                             href="https://github.com/chivaa97">VISITAR</a>
                         </div>

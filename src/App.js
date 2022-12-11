@@ -10,7 +10,6 @@ function App() {
   const [background, setbackground] = useState("transparent");
   const divRef = useRef();
 
-  const colorback = ` rgb(51, 33, 121)`;
 
   useEffect(() => {
     const handleScroll = () => {
